@@ -17,6 +17,10 @@ scales.diatonic("C")
 sacles.ionian("C")
 
 scales.melodic_minor("A")
+
+progressions.substitute(["I", "IV", "V", "I"], 0)
+progressions.to_chords(progression, "C")
+progressions.to_chords(progression, "F")
 ```
 
 ```
